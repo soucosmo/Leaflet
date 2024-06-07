@@ -158,9 +158,9 @@ describe('Marker', () => {
 			expect(oldIcon.parentNode).to.equal(null);
 
 			if (Browser.retina) {
-				expect(marker._icon.src).to.contain('marker-icon-2x.png');
+				expect(marker._icon.src).to.contain('marker-icon-2x.webp');
 			} else {
-				expect(marker._icon.src).to.contain('marker-icon.png');
+				expect(marker._icon.src).to.contain('marker-icon.webp');
 			}
 			expect(marker._icon.parentNode).to.equal(map._panes.markerPane);
 		});
