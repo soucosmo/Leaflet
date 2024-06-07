@@ -20,9 +20,9 @@ import * as DomUtil from '../../dom/DomUtil.js';
 export const IconDefault = Icon.extend({
 
 	options: {
-		iconUrl:       'marker-icon.webp',
-		iconRetinaUrl: 'marker-icon-2x.webp',
-		shadowUrl:     'marker-shadow.webp',
+		iconUrl:       'marker-icon.png',
+		iconRetinaUrl: 'marker-icon-2x.png',
+		shadowUrl:     'marker-shadow.png',
 		iconSize:    [25, 41],
 		iconAnchor:  [12, 41],
 		popupAnchor: [1, -34],
